@@ -253,7 +253,7 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmSS").format(new Date());
         String imageFileName = "IMAGE_" + timeStamp;
         // Here we specify the environment location and the exact path where we want to save the so-created file
-        File storageDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES + "/JavaMediaUpload");
+        File storageDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES + "/photo_saving_app");
         Logger.getAnonymousLogger().info("Storage directory set");
 
         // Then we create the storage directory if does not exists
