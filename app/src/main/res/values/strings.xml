@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JavaUploadMediaProject</string>
+    <string name="uploadImages">Set your image</string>
+    <string name="msg_loading">Loading...</string>
+    <string name="buffering_string">Buffering&#8230;</string>
+    <string name="toast_message">Playback completed.</string>
+    <string name="pick_file">Pick file</string>
+    <string name="upload_file">Upload file</string>
+    <string name="upload_video">UPLOAD VIDEO</string>
+    <string name="read_file">This app needs access to your file storage so that it can read video.</string>
+    <string name="toast_pick_file_error">Unable to pick file. Check status of file manager.</string>
+</resources>
